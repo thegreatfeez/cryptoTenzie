@@ -1,12 +1,46 @@
-# React + Vite
+# 🎲 Crypto Tenzies
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fun **React-based dice game** where players roll to match all dice while racing against time and roll limits — and earn virtual crypto tokens in the process.  
 
-Currently, two official plugins are available:
+![Game Preview](![PreviewImage](image.png))
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
+- ⏳ **Timer** – Win before time runs out  
+- 🎯 **Roll Limit** – Only a set number of rolls allowed  
+- 🔒 **Hold Dice** – Keep dice you want to lock in place  
+- 🏆 **Streak System** – Track consecutive wins  
+- 💰 **Crypto Rewards** – Earn token points per win  
+- 📊 **Airdrop Progress Bar** – See how close you are to your reward  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🕹️ How to Play
+1. Click **Roll** to roll all unlocked dice.  
+2. Click a die to **hold** its value.  
+3. Keep rolling until all dice show the **same number**.  
+4. Win before the **timer** runs out and within the **roll limit** to earn points.  
+
+---
+
+## ⚡ Tech Stack
+- **React 18**
+- **Tailwind CSS**
+- **LocalStorage** for progress persistence  
+
+---
+
+## 📂 Installation
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/crypto-tenzies.git
+
+# Navigate into the project folder
+cd crypto-tenzies
+
+# Install dependencies
+npm install
+
+# Run the development server
+npm start
