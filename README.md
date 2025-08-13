@@ -2,7 +2,7 @@
 
 A fun **React-based dice game** where players roll to match all dice while racing against time and roll limits — and earn virtual crypto tokens in the process.  
 
-![Game Preview](![PreviewImage](image.png))
+![Game Preview](![PreviewImage](https://github.com/thegreatfeez/cryptoTenzie/blob/bd7095c4c779b7bd5a9e753931e35fc5ea722aae/cryptotenzie.png)
 
 ---
 
